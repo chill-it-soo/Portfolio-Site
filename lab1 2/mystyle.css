@@ -1,0 +1,101 @@
+html{height: 100%}
+body{background-color: white;
+background-size:cover;}
+#text{margin:5px}
+
+#menu{margin-right: 20px;
+background-color:black;}
+h1{
+    font-family:'HYDNKB';
+    color: #F5C454;
+    margin:0px;
+    text-align:center;
+    padding:5px;
+    border:10px solid #F5C454; 
+}
+h3{margin-bottom:5px; margin-top:0px;}
+
+a1{font-size:80%;
+    font-weight: bold;
+}
+#text{
+    background-color:white;
+    color: black;
+    padding: 5px;
+    
+}
+
+#past:hover{color:#F5C454;}
+
+h4,h2{margin-bottom: 3px; margin-top:10px;}
+a { 
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding:10px; margin:0px;
+    text-align:center;
+    text-decoration:none;
+    display:block;
+    
+}
+#now{background-color:#F5C454;color:black; }
+
+a:hover{
+background-color: #F5D483}
+
+#menu{
+   display:grid; grid-template-columns: auto auto auto auto auto;
+    margin:0px;
+}
+
+div.card{
+    width: 220px; height:280px; margin:5px;
+    text-align: center;
+    display:inline-block
+}
+
+div.card{
+    width: 220px; height:280px; margin:5px;
+    text-align: center;
+    display:inline-block
+}
+
+#sns{
+    margin-bottom:10px;
+    border:5px solid white;
+}
+#sns:hover{
+    image-resolution: from-image  color=black;
+    opacity:0.5;
+    border : 5px solid #F5D483;
+    cursor: pointer;
+}
+
+#button{
+    width:60px; height:32px;
+    background-color: #F5D483;
+    border: none;
+    color:#fff;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+#self{display: grid; grid-template-columns: 220px auto}
+
+#category{display: grid; grid-template-columns: 20% 20% 20% 20% 20% 20%}
+
+#myimage{display: block; margin: 0px auto; }
+
+#pflayout{display:grid; grid-template-columns: 50px auto 50px}
+
+#conlayout{display:grid; grid-template-columns: auto 70px 50px}
+
+@media(min-width: 800px){
+    #layout{display:grid; grid-template-columns: 200px auto;}
+    #menu{display:block; margin-right: 20px;}
+    #aboutlayout{display:grid; grid-template-columns: 500px auto;}
+    #intro{font-size: 130%;}
+}
